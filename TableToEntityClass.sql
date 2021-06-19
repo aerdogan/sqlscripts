@@ -1,4 +1,6 @@
 -- MSSQL için aktif veritabanının C# Entity Class'larınızı oluşturur
+/*
+
 
 declare @tableName varchar(200)
 declare @columnName varchar(200)
@@ -61,3 +63,6 @@ PRINT 'public class ' + LEFT(@tableName, LEN(@tableName) - 1) + ' : IEntity
 END
 CLOSE table_cursor
 DEALLOCATE table_cursor
+
+
+*/
